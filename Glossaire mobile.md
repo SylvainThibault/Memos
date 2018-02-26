@@ -26,7 +26,7 @@
 </tr>
 <tr>
 <td><strong>SDK</strong></td>
-<td>Software Development Kit. Ensemble d’outils d’aide à la programmation pour un terminal et/ou un système d’exploitation. Il contient des fichiers de codes qui permettent d’utiliser les fonctions natives du téléphone.</td>
+<td>Software Development Kit. Ensemble d’outils d’aide à la programmation pour un terminal et/ou un système d’exploitation. Dans le cas présent, il contient des fichiers de codes qui permettent d’utiliser les fonctions natives du téléphone.</td>
 </tr>
 <tr>
 <td><strong>Compilateur</strong></td>
@@ -109,4 +109,8 @@
 <td></td>
 </tr>
 </tbody>
-</table>
+</table><p>HTML / CSS<br>
+CORDOVA<br>
+SDK<br>
+Fonctions Natives du Téléphone</p>
+
