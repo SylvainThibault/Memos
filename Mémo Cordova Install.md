@@ -37,7 +37,7 @@
 <li>Paramètres système avancés</li>
 <li>Variables d’environnement</li>
 <li>PATH</li>
-<li>Récupérer le chemin de NPM : C:\Users\marion.chapuis\AppData\Roaming\npm</li>
+<li>Récupérer le chemin de NPM : C:\Users\mon.nom\AppData\Roaming\npm</li>
 <li>Nouveau : copier le chemin</li>
 <li>Déplacer vers le haut dans la liste</li>
 </ul>
