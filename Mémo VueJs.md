@@ -12,6 +12,11 @@
 		monAttribut : "www.exemple.com",
 		monBooleen : true,
 		items : ['item0','item1','item2']
+	},
+	methods: {
+		maMethode: function(){
+			this.monBooleen = false
+		}
 	}
 });
 </code></pre>
@@ -49,4 +54,23 @@ S’il est égal à <em>false</em>, le bloc <strong>disparaît du code</strong>.
 &lt;/ul&gt;
 </code></pre>
 <p>Crée une variable <em>item</em> pour chaque élément du tableau <em>items</em>.</p>
+<hr>
+<h4 id="lier-un-champ-à-une-variable--v-model">Lier un champ à une variable : <em>v-model</em></h4>
+<pre><code>&lt;input type="text" v-model="maVariable" /&gt;
+&lt;p&gt; {{ maVariable }} &lt;/p&gt;
+</code></pre>
+<h4 id="lier-une-checkbox-à-un-bloc--v-model">Lier une checkbox à un bloc : <em>v-model</em></h4>
+<pre><code>&lt;input type="checkbox" v-model="monBooleen" /&gt;
+&lt;div v-if="monBooleen"&gt; Bloc à Afficher / Masquer &lt;/div&gt;
+</code></pre>
+<p>La valeur de <em>monBooleen</em> passe de <em>true</em> à <em>false</em> en fonction de l’état de la checkbox.</p>
+<h2 id="les-interactions">Les interactions</h2>
+<h4 id="mettre-un-écouteur-sur-un-élément--v-on">Mettre un écouteur sur un élément : <em>v-on</em></h4>
+<pre><code>&lt;div id="blocAfermer" v-if="monBooleen"&gt;
+	&lt;span class="close-icon" v-on:click="maMethode"&gt; X &lt;/span&gt;
+&lt;/div&gt;
+</code></pre>
+<p>ou en raccourci :</p>
+<pre><code>&lt;span class="close-icon" @click="maMethode"&gt; X &lt;/span&gt;
+</code></pre>
 
