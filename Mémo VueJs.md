@@ -4,7 +4,7 @@
 ---
 
 <h1 id="mémo-vuejs">Mémo VueJS</h1>
-<p>Dans le JS :</p>
+<h2 id="dans-le-js-">Dans le JS :</h2>
 <pre><code>new Vue ({
 	el: "#monId",
 	data : {
@@ -15,6 +15,7 @@
 	}
 });
 </code></pre>
+<h2 id="dans-le-html">Dans le HTML</h2>
 <h4 id="afficher-une-variable---...-">Afficher une variable : <em>{{ … }}</em></h4>
 <pre><code>&lt;div id="monId"&gt;
 	{{ maVariable }}
