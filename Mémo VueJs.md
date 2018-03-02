@@ -73,4 +73,51 @@ S’il est égal à <em>false</em>, le bloc <strong>disparaît du code</strong>.
 <p>ou en raccourci :</p>
 <pre><code>&lt;span class="close-icon" @click="maMethode"&gt; X &lt;/span&gt;
 </code></pre>
+<hr>
+<h2 id="les-principales-commandes">Les principales commandes</h2>
+<pre><code>npm run dev
 
+
+npm run build
+</code></pre>
+<hr>
+<h2 id="structure-dun-projet-vue">Structure d’un projet VUE</h2>
+
+<table>
+<thead>
+<tr>
+<th>Dossier</th>
+<th>Contenu</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>build</td>
+<td></td>
+</tr>
+<tr>
+<td>config</td>
+<td></td>
+</tr>
+<tr>
+<td>node_modules</td>
+<td></td>
+</tr>
+<tr>
+<td>resources</td>
+<td></td>
+</tr>
+<tr>
+<td>src</td>
+<td></td>
+</tr>
+<tr>
+<td>static</td>
+<td></td>
+</tr>
+<tr>
+<td>www</td>
+<td></td>
+</tr>
+</tbody>
+</table>
