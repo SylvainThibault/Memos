@@ -124,7 +124,7 @@ Le projet est compilé.</p>
 <tbody>
 <tr>
 <td align="center">platforms</td>
-<td>Contient les différentes plateformes ajoutées au projet</td>
+<td>Contient les différentes plateformes ajoutées au projet + le code source</td>
 </tr>
 <tr>
 <td align="center">plugins</td>
