@@ -75,6 +75,7 @@ S’il est égal à <em>false</em>, le bloc <strong>disparaît du code</strong>.
 </code></pre>
 <hr>
 <h2 id="les-principales-commandes">Les principales commandes</h2>
+<p>Pour lancer un serveur en local :</p>
 <pre><code>npm run dev
 
 
@@ -93,31 +94,23 @@ npm run build
 <tbody>
 <tr>
 <td>build</td>
-<td></td>
+<td>Ce dossier contient la configuration pour le serveur de développement et de production. Théoriquement rien à modifier dans ce dossier.</td>
 </tr>
 <tr>
 <td>config</td>
-<td></td>
+<td>C’est le dossier qui contient plusieurs fichiers de configurations important pour l’application.</td>
 </tr>
 <tr>
 <td>node_modules</td>
-<td></td>
-</tr>
-<tr>
-<td>resources</td>
-<td></td>
+<td>Dossier dans lequel sont installés les paquets/dépendances + les dépendances des dépendances</td>
 </tr>
 <tr>
 <td>src</td>
-<td></td>
+<td>Dossier qui contient tous nos fichiers de travail</td>
 </tr>
 <tr>
 <td>static</td>
-<td></td>
-</tr>
-<tr>
-<td>www</td>
-<td></td>
+<td>C’est ce dossier qui va contenir les “Assets”, c’est à dire les images, les fichiers js et css de l’application.</td>
 </tr>
 </tbody>
 </table>
