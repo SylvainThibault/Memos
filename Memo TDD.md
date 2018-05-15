@@ -12,6 +12,32 @@
 Ils permettront de mettre en évidence des problèmes d’interfaces entre différents programmes.</p>
 <h3 id="les-tests-fonctionnels">Les tests fonctionnels</h3>
 <p>Ces tests ont pour but de vérifier la conformité de l’application développée avec le cahier des charges initial. Ils sont donc basés sur les spécifications fonctionnelles et techniques.</p>
+<h4 id="concept-given---when---then">Concept Given - When - Then</h4>
+<p>La matrice Given-When-Then est un format recommandé pour le test fonctionnel d’une User Story:</p>
+<ul>
+<li>
+<p>(Given) (Etant donné) un contexte,</p>
+</li>
+<li>
+<p>(When) (Lorsque) l’utilisateur effectue certaines actions,</p>
+</li>
+<li>
+<p>(Then) (Alors) on doit pouvoir constater telles conséquences</p>
+</li>
+</ul>
+<p>Par exemple:</p>
+<ul>
+<li>
+<p>Etant donné un solde positif de mon compte, et aucun retrait cette semaine,</p>
+</li>
+<li>
+<p>Lorsque je retire un montant inférieur à la limite de retrait,</p>
+</li>
+<li>
+<p>Alors mon retrait doit se dérouler sans erreur ou avertissement</p>
+</li>
+</ul>
+<p>Des outils tels que <a href="http://jbehave.org/">JBehave</a>, <a href="http://rspec.info/">RSpec</a> ou <a href="https://cucumber.io/">Cucumber</a> encouragent l’utilisation de cette formule.</p>
 <h3 id="les-tests-de-non-régression">Les tests de non-régression</h3>
 <p>Les tests de non-régression permettent de vérifier que des modifications n’ont pas altérées le fonctionnent de l’application.<br>
 L’utilisation d’outils de tests, dans ce domaine, permet de facilité la mise en place de ce type de tests.</p>
