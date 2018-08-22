@@ -17,8 +17,11 @@ lorsqu'on ajoute de nouveaux packages dépendants ou met à jour les versions de
 Pour exécuter le moteur de génération et crée votre application :
 
     dotnet build
-    
+   Pour lancer l'application :
+
+    dotnet run
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk0NzE4OTcyLC0xOTEyNjI0OTA5XX0=
+eyJoaXN0b3J5IjpbNTM2MzczMjQ1LC0xOTEyNjI0OTA5XX0=
 -->
