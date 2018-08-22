@@ -5,7 +5,12 @@ Le **.NET Framework** propose plusieurs services, notamment la gestion de la mé
 
 ## Core
 Core est l’interface de ligne de commande (CLI) de .NET.
-Créer un nouveau projet de type H
+
+Créer un nouveau projet de type Hello World :
+
+    dotnet new console
+Pour exécuter le processus de restauration de package NuGet :
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2MDY5MzU3LC0xOTEyNjI0OTA5XX0=
+eyJoaXN0b3J5IjpbLTE1NjQwOTEyOSwtMTkxMjYyNDkwOV19
 -->
