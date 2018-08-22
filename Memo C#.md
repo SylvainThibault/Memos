@@ -15,11 +15,12 @@ Les fichiers sources C# ont généralement l’extension de fichier  `.cs`.  Si 
 csc hello.cs
 ```
 ce qui génère un assembly exécutable nommé hello.exe.
+
 ### Structure du programme
 Les concepts clés d’organisation en C# sont les  **_programmes_**,  **_espaces de noms_**,  **_types_**,  **_membres_**  et  **_assemblys_**.  Les programmes C++, comme les programmes C, se composent d'un ou plusieurs fichiers sources.  Les programmes déclarent des types qui contiennent des membres et peuvent être organisés en espaces de noms.  Les classes et les interfaces sont des exemples de types.  Les champs, méthodes, propriétés et événements sont des exemples de membres.  Lorsque les programmes C# sont compilés, ils sont physiquement empaquetés dans des assemblys.  Les assemblys ont généralement l’extension de fichier  `.exe`  ou  `.dll`, selon qu’elles implémentent des  **_applications_**  ou des  **_bibliothèques_**, respectivement.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjM1NDU5MzUsMTE3ODMzMzkzOSwxMD
-ExMDQ1MDk3XX0=
+eyJoaXN0b3J5IjpbLTkxOTkyMTkxNywxMTc4MzMzOTM5LDEwMT
+EwNDUwOTddfQ==
 -->
