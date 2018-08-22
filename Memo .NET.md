@@ -10,10 +10,12 @@ Core est l’interface de ligne de commande (CLI) de .NET.
 Créer un nouveau projet de type Hello World :
 
     dotnet new console
-Pour exécuter le processus de restauration de package NuGet :
+Pour exécuter le processus de restauration de package NuGet ou
+lorsqu'on ajoute de nouveaux packages dépendants ou met à jour les versions des dépendances :
 
     dotnet restore
+Pour exécuter le moteur de génération et crée votre application :
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0MzQwNDMyNSwtMTkxMjYyNDkwOV19
+eyJoaXN0b3J5IjpbMTUwMjYxMzE3MiwtMTkxMjYyNDkwOV19
 -->
