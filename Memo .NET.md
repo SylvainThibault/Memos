@@ -16,6 +16,9 @@ lorsqu'on ajoute de nouveaux packages dépendants ou met à jour les versions de
     dotnet restore
 Pour exécuter le moteur de génération et crée votre application :
 
+    dotnet build
+    
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwMjYxMzE3MiwtMTkxMjYyNDkwOV19
+eyJoaXN0b3J5IjpbOTk0NzE4OTcyLC0xOTEyNjI0OTA5XX0=
 -->
