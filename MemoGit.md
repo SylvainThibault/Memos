@@ -11,7 +11,7 @@
 <p><strong>log</strong> : Affiche tous les changements enregistrés (les commit)</p>
 <p><strong>remote add origin</strong>: Ajoute au dossier git un “repository” distant, et le lie a un dossier ‘origin’</p>
 <p><strong>push</strong> : envoie sur le repo distant les modifications enregistrées dans le dernier commit.</p>
-<p><strong>push -u origin master</strong>: -u permet de se rappeler, das ce contexte d’utilisation, quels sont les paramètres de la fonction push : origin : l’élément à push (notre repo local) master : le nom de la ‘branch’ dans laquelle nous allons push notre élément</p>
+<p><strong>push -u origin master</strong>: -u permet de se rappeler, dans ce contexte d’utilisation, quels sont les paramètres de la fonction push : origin : l’élément à push (notre repo local) master : le nom de la ‘branch’ dans laquelle nous allons push notre élément</p>
 <p><strong>pull</strong> : récupère les changements du repo distant sur notre repo local</p>
 <p><strong>pull origin master</strong>: ‘pull’ dans origin ce qui vient de master</p>
 <p><strong>diff</strong>: Montre les différences entre l’état actuel de notre repo local et un état ‘committé’</p>
