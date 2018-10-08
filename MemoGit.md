@@ -9,7 +9,7 @@
 <p><strong>add</strong> : Ajoute le(s) élément(s) dans la liste des fichiers et dossiers à gérer par git</p>
 <p><strong>commit</strong> : Enregistre et nomme (via -m “”) les changements effectués</p>
 <p><strong>log</strong> : Affiche tous les changements enregistrés (les commit)</p>
-<p><strong>remote add origin</strong>: Ajoute au dossier git un “repository” distant, et le lie a udossier ‘origin’</p>
+<p><strong>remote add origin</strong>: Ajoute au dossier git un “repository” distant, et le lie a un dossier ‘origin’</p>
 <p><strong>push</strong> : envoie sur le repo distant les modifications enregistrées dans le dernier commit.</p>
 <p><strong>push -u origin master</strong>: -u permet de se rappeler, das ce contexte d’utilisation, quels sont les paramètres de la fonction push : origin : l’élément à push (notre repo local) master : le nom de la ‘branch’ dans laquelle nous allons push notre élément</p>
 <p><strong>pull</strong> : récupère les changements du repo distant sur notre repo local</p>
