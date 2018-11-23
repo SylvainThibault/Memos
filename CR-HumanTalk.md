@@ -1,7 +1,3 @@
----
-
-
----
 <h2>Human Talk du 13 Novembre 2018</h2>
 <h3>Présentation de Victor Sabatier sur certaines des nouveautés React 16.6.1</h3>
 <p>React est une alternative à la manipulation du DOM, grâce à des concepts avancés tels que le <strong>Virtual DOM</strong> ( une image du DOM modifiée servant de comparaison à l’état originel ) , le <strong>One Way Data Flow</strong> ( qui optimise le Data Flow et facillite le debug ), ou encore la <strong>Reconciliation</strong> ( le mécanisme qui met en oeuvre la comparaison entre le Virtual DOM et l’ancien DOM, afin de mettre l’état à jour en n’updatant que les parties différentes ).</p>
@@ -12,5 +8,5 @@
 <p>Je me sens privilégié d’avoir assisté à ce <em>Human Talk</em> de Victor Sabatier. Les qualités d’orateur de ce beau jeune homme n’ont d’égal que ses compétences techniques. Merci Victor ( de bien vouloir valider ma dernière compétence :).</p>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMzY0ODYzMF19
+eyJoaXN0b3J5IjpbMTU1MTU4MDA4Ml19
 -->
