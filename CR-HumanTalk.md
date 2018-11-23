@@ -1,3 +1,7 @@
+---
+
+
+---
 
 <h2>Human Talk du 13 Novembre 2018</h2>
 <h3>Présentation de Victor Sabatier sur certaines des nouveautés React 16.6.1</h3>
@@ -8,6 +12,3 @@
 <p>Enfin, parmi les toutes nouvelles fonctionnalités de React 16.6.1, Victor Sabatier a judicieusement sélectionné les deux suivantes : <strong>React.Memo</strong> qui permet d’optimiser les performances en donnant aux <em>Function Components</em> un comportement de <em>Pure Component</em> ( mémorisation de certains résultats de calcul afin d’économiser des appels à la fonction ) et <strong>React.Lazy</strong> qui permet de rendre un import dynamique à la manière d’un composant habituel, mais au moment où il est appelé.</p>
 <p>Je me sens privilégié d’avoir assisté à ce <em>Human Talk</em> de Victor Sabatier. Les qualités d’orateur de ce beau jeune homme n’ont d’égal que ses compétences techniques. Merci Victor ( de bien vouloir valider ma dernière compétence :).</p>
 
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTU0MTA0NjRdfQ==
--->
