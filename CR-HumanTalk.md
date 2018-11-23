@@ -1,7 +1,7 @@
 
 <h2>Human Talk du 13 Novembre 2018</h2>
 <h3>Présentation de Victor Sabatier sur certaines des nouveautés React 16.6.1</h3>
-React est une alternative à la manipulation du DOM, grâce à des concepts avancés tels que le <strong>Virtual DOM</strong> ( une image du DOM modifiée servant de comparaison à l’état originel ) , le <strong>One Way Data Flow</strong> ( qui optimise le Data Flow et facillite le debug ), ou encore la <strong>Reconciliation</strong> ( le mécanisme qui met en oeuvre la comparaison entre le Virtual DOM et l’ancien DOM, afin de mettre l’état à jour en n’updatant que les parties différentes ).</p>
+<p>React est une alternative à la manipulation du DOM, grâce à des concepts avancés tels que le <strong>Virtual DOM</strong> ( une image du DOM modifiée servant de comparaison à l’état originel ) , le <strong>One Way Data Flow</strong> ( qui optimise le Data Flow et facillite le debug ), ou encore la <strong>Reconciliation</strong> ( le mécanisme qui met en oeuvre la comparaison entre le Virtual DOM et l’ancien DOM, afin de mettre l’état à jour en n’updatant que les parties différentes ).</p>
 <p>Victor Sabatier nous a d’abord brillament expliqué la notion de <strong>Fragment</strong>. Elle permet d’injecter des fragments Html sans qu’ils soient wrappés dans une <code>&lt;div&gt;</code>, ce qui pourrait occasionner un Html invalide ( notamment dans le cas de balises imbriquées, comme dans un tableau par exemple ).</p>
 <p>Victor Sabatier a ensuite introduit, dans un langage d’une précision technique effarante et néanmoins accessible au plus grand nombre, les <strong>dépréciations liées au <em>Lifecycle</em> de React</strong> ainsi que les méthodes paliatives à leur disparition.</p>
 <p>Quelle ne fut pas la joie de l’auditoire lorsque Victor Sabatier nous a appris que la <strong>Context API</strong> venait de passer en mode <em>‘safe’</em>. Nous allons enfin pouvoir éviter le passage de props en chaîne d’un module à l’autre ( <em>‘props drilling’</em> ) et nous économiser l’utilisation de Redux en toute tranquillité d’esprit. Gloire à Victor Sabatier.</p>
@@ -9,5 +9,5 @@ React est une alternative à la manipulation du DOM, grâce à des concepts avan
 <p>Je me sens privilégié d’avoir assisté à ce <em>Human Talk</em> de Victor Sabatier. Les qualités d’orateur de ce beau jeune homme n’ont d’égal que ses compétences techniques. Merci Victor ( de bien vouloir valider ma dernière compétence :).</p>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg3NTUwODEwXX0=
+eyJoaXN0b3J5IjpbLTE2MTU0MTA0NjRdfQ==
 -->
